@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from oo.carro import Motor
+from oo.motor import Motor
 
 
 class CarroTestCase(TestCase):
