@@ -1,5 +1,15 @@
 class Pessoa:
-    olhos = 2
+    def cumprimentar(self):
+        return f"Ola {id(self)}"
+
+if __name__ == '__main__':
+    p = Pessoa()
+    print(Pessoa.cumprimentar(p))
+    print(id(p))
+    print(p.cumprimentar())
+
+
+    """olhos = 2
 
     def __init__(self, *filhos, nome=None, idade=35):
         self.idade = idade
@@ -57,4 +67,4 @@ if __name__ == '__main__':
     print(isinstance(renzo, Homem))
     print(renzo.olhos)
     print(luciano.cumprimentar())
-    print(renzo.cumprimentar())
+    print(renzo.cumprimentar()) """
