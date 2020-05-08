@@ -17,6 +17,10 @@ if __name__ == '__main__':
     print(silvestre.idade)
     for filho in silvestre.filhos:
         print(filho.nome)
+    silvestre.sobrenome = 'Rojas'
+    del silvestre.filhos
+    print(silvestre.__dict__)
+    print(Angel.__dict__)
 
     """olhos = 2
 
